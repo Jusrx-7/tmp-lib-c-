@@ -1,3 +1,4 @@
+#define __null '\0'
 void utol(char *ptr)
 {
     /* Explaining utol() upper to lower
