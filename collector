@@ -1,0 +1,18 @@
+using _uint = unsigned int;// using _uint = unsigned int == typedef unsigned int _uint 
+_uint collector(_uint tmp)
+{
+    if (tmp < 0)
+    {
+        exit(EXIT_FAILURE);
+    }
+    else
+    {
+        _uint _end = 0;
+        while (tmp != 0)
+        {
+            _end += tmp;
+            tmp--;
+        }
+        return _end;
+    }
+}
